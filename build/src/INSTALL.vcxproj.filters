@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="E:\files\C++\VR\openvr\build\CMakeFiles\133197175b394cab8e405f4168b477ff\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{552AE07D-F7F1-3F98-BCEA-EA3B8BCB340A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
