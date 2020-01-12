@@ -1,38 +1,17 @@
-//========= Copyright Valve Corporation ============//
-
 #include <SDL.h>
 #include <GL/glew.h>
 #include <SDL_opengl.h>
-#if defined( OSX )
-#include <Foundation/Foundation.h>
-#include <AppKit/AppKit.h>
-#include <OpenGL/glu.h>
-// Apple's version of glut.h #undef's APIENTRY, redefine it
-#define APIENTRY
-#else
 #include <GL/glu.h>
-#endif
+
 #include <stdio.h>
 #include <string>
 #include <cstdlib>
 
 #include <openvr.h>
-
 #include "shared/lodepng.h"
 #include "shared/Matrices.h"
 #include "shared/pathtools.h"
 
-#if defined(POSIX)
-#include "unistd.h"
-#endif
-
-#ifndef _WIN32
-#define APIENTRY
-#endif
-
-#ifndef _countof
-#define _countof(x) (sizeof(x)/sizeof((x)[0]))
-#endif
 
 void ThreadSleep( unsigned long nMilliseconds )
 {
@@ -65,9 +44,6 @@ private:
 
 static bool g_bPrintf = true;
 
-//-----------------------------------------------------------------------------
-// Purpose:
-//------------------------------------------------------------------------------
 class CMainApplication
 {
 public:
@@ -1906,9 +1882,6 @@ void CGLRenderModel::Draw()
 }
 
 
-//-----------------------------------------------------------------------------
-// Purpose:
-//-----------------------------------------------------------------------------
 int main(int argc, char *argv[])
 {
 	CMainApplication *pMainApplication = new CMainApplication( argc, argv );

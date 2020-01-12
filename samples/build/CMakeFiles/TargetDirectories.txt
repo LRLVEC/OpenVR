@@ -1,0 +1,7 @@
+D:/VR_GI/OpenVR/samples/build/CMakeFiles/ALL_BUILD.dir
+D:/VR_GI/OpenVR/samples/build/CMakeFiles/ZERO_CHECK.dir
+D:/VR_GI/OpenVR/samples/build/driver_sample/CMakeFiles/driver_sample.dir
+D:/VR_GI/OpenVR/samples/build/hellovr_opengl/CMakeFiles/hellovr_opengl.dir
+D:/VR_GI/OpenVR/samples/build/hellovr_vulkan/CMakeFiles/hellovr_vulkan.dir
+D:/VR_GI/OpenVR/samples/build/helloworldoverlay/CMakeFiles/helloworldoverlay.dir
+D:/VR_GI/OpenVR/samples/build/tracked_camera_openvr_sample/CMakeFiles/tracked_camera_openvr_sample.dir

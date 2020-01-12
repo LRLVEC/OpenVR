@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{F7C1DB60-E371-313B-B400-E23E58FF1D73}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\VR_GI\OpenVR\samples\build;D:\VR_GI\OpenVR\samples;D:\VR_GI\OpenVR\samples\.;D:\VR_GI\OpenVR\samples\thirdparty\glew\glew-1.11.0\include;D:\VR_GI\OpenVR\samples\thirdparty\sdl2-2.0.3\include;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtCore;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\.\mkspecs\win32-msvc;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtGui;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtANGLE;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtWidgets;D:\VR_GI\OpenVR\samples\..\headers;D:\VR_GI\OpenVR\samples\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\VR_GI\OpenVR\samples\build;D:\VR_GI\OpenVR\samples;D:\VR_GI\OpenVR\samples\.;D:\VR_GI\OpenVR\samples\thirdparty\glew\glew-1.11.0\include;D:\VR_GI\OpenVR\samples\thirdparty\sdl2-2.0.3\include;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtCore;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\.\mkspecs\win32-msvc;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtGui;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtANGLE;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtWidgets;D:\VR_GI\OpenVR\samples\..\headers;D:\VR_GI\OpenVR\samples\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\VR_GI\OpenVR\samples\build;D:\VR_GI\OpenVR\samples;D:\VR_GI\OpenVR\samples\.;D:\VR_GI\OpenVR\samples\thirdparty\glew\glew-1.11.0\include;D:\VR_GI\OpenVR\samples\thirdparty\sdl2-2.0.3\include;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtCore;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\.\mkspecs\win32-msvc;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtGui;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtANGLE;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtWidgets;D:\VR_GI\OpenVR\samples\..\headers;D:\VR_GI\OpenVR\samples\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>D:\VR_GI\OpenVR\samples\build;D:\VR_GI\OpenVR\samples;D:\VR_GI\OpenVR\samples\.;D:\VR_GI\OpenVR\samples\thirdparty\glew\glew-1.11.0\include;D:\VR_GI\OpenVR\samples\thirdparty\sdl2-2.0.3\include;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtCore;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\.\mkspecs\win32-msvc;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtGui;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtANGLE;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtWidgets;D:\VR_GI\OpenVR\samples\..\headers;D:\VR_GI\OpenVR\samples\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\VR_GI\OpenVR\samples\build\CMakeFiles\02d542414f457b04befb67d5e8a5711d\generate.stamp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/VR_GI/OpenVR/samples -BD:/VR_GI/OpenVR/samples/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/VR_GI/OpenVR/samples/build/openvr_samples.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseArguments.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\FindOpenGL.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;D:\VR_GI\OpenVR\samples\CMakeLists.txt;D:\VR_GI\OpenVR\samples\build\CMakeFiles\3.16.2\CMakeCCompiler.cmake;D:\VR_GI\OpenVR\samples\build\CMakeFiles\3.16.2\CMakeCXXCompiler.cmake;D:\VR_GI\OpenVR\samples\build\CMakeFiles\3.16.2\CMakeRCCompiler.cmake;D:\VR_GI\OpenVR\samples\build\CMakeFiles\3.16.2\CMakeSystem.cmake;D:\VR_GI\OpenVR\samples\driver_sample\CMakeLists.txt;D:\VR_GI\OpenVR\samples\hellovr_opengl\CMakeLists.txt;D:\VR_GI\OpenVR\samples\hellovr_vulkan\CMakeLists.txt;D:\VR_GI\OpenVR\samples\helloworldoverlay\CMakeLists.txt;D:\VR_GI\OpenVR\samples\tracked_camera_openvr_sample\CMakeLists.txt;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\VR_GI\OpenVR\samples\build\CMakeFiles\generate.stamp;D:\VR_GI\OpenVR\samples\build\driver_sample\CMakeFiles\generate.stamp;D:\VR_GI\OpenVR\samples\build\hellovr_opengl\CMakeFiles\generate.stamp;D:\VR_GI\OpenVR\samples\build\hellovr_vulkan\CMakeFiles\generate.stamp;D:\VR_GI\OpenVR\samples\build\helloworldoverlay\CMakeFiles\generate.stamp;D:\VR_GI\OpenVR\samples\build\tracked_camera_openvr_sample\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/VR_GI/OpenVR/samples -BD:/VR_GI/OpenVR/samples/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/VR_GI/OpenVR/samples/build/openvr_samples.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseArguments.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\FindOpenGL.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;D:\VR_GI\OpenVR\samples\CMakeLists.txt;D:\VR_GI\OpenVR\samples\build\CMakeFiles\3.16.2\CMakeCCompiler.cmake;D:\VR_GI\OpenVR\samples\build\CMakeFiles\3.16.2\CMakeCXXCompiler.cmake;D:\VR_GI\OpenVR\samples\build\CMakeFiles\3.16.2\CMakeRCCompiler.cmake;D:\VR_GI\OpenVR\samples\build\CMakeFiles\3.16.2\CMakeSystem.cmake;D:\VR_GI\OpenVR\samples\driver_sample\CMakeLists.txt;D:\VR_GI\OpenVR\samples\hellovr_opengl\CMakeLists.txt;D:\VR_GI\OpenVR\samples\hellovr_vulkan\CMakeLists.txt;D:\VR_GI\OpenVR\samples\helloworldoverlay\CMakeLists.txt;D:\VR_GI\OpenVR\samples\tracked_camera_openvr_sample\CMakeLists.txt;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\VR_GI\OpenVR\samples\build\CMakeFiles\generate.stamp;D:\VR_GI\OpenVR\samples\build\driver_sample\CMakeFiles\generate.stamp;D:\VR_GI\OpenVR\samples\build\hellovr_opengl\CMakeFiles\generate.stamp;D:\VR_GI\OpenVR\samples\build\hellovr_vulkan\CMakeFiles\generate.stamp;D:\VR_GI\OpenVR\samples\build\helloworldoverlay\CMakeFiles\generate.stamp;D:\VR_GI\OpenVR\samples\build\tracked_camera_openvr_sample\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/VR_GI/OpenVR/samples -BD:/VR_GI/OpenVR/samples/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/VR_GI/OpenVR/samples/build/openvr_samples.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseArguments.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\FindOpenGL.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;D:\VR_GI\OpenVR\samples\CMakeLists.txt;D:\VR_GI\OpenVR\samples\build\CMakeFiles\3.16.2\CMakeCCompiler.cmake;D:\VR_GI\OpenVR\samples\build\CMakeFiles\3.16.2\CMakeCXXCompiler.cmake;D:\VR_GI\OpenVR\samples\build\CMakeFiles\3.16.2\CMakeRCCompiler.cmake;D:\VR_GI\OpenVR\samples\build\CMakeFiles\3.16.2\CMakeSystem.cmake;D:\VR_GI\OpenVR\samples\driver_sample\CMakeLists.txt;D:\VR_GI\OpenVR\samples\hellovr_opengl\CMakeLists.txt;D:\VR_GI\OpenVR\samples\hellovr_vulkan\CMakeLists.txt;D:\VR_GI\OpenVR\samples\helloworldoverlay\CMakeLists.txt;D:\VR_GI\OpenVR\samples\tracked_camera_openvr_sample\CMakeLists.txt;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\VR_GI\OpenVR\samples\build\CMakeFiles\generate.stamp;D:\VR_GI\OpenVR\samples\build\driver_sample\CMakeFiles\generate.stamp;D:\VR_GI\OpenVR\samples\build\hellovr_opengl\CMakeFiles\generate.stamp;D:\VR_GI\OpenVR\samples\build\hellovr_vulkan\CMakeFiles\generate.stamp;D:\VR_GI\OpenVR\samples\build\helloworldoverlay\CMakeFiles\generate.stamp;D:\VR_GI\OpenVR\samples\build\tracked_camera_openvr_sample\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"D:\Program Files\CMake\bin\cmake.exe" -SD:/VR_GI/OpenVR/samples -BD:/VR_GI/OpenVR/samples/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/VR_GI/OpenVR/samples/build/openvr_samples.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCInformation.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeParseArguments.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\FindOpenGL.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\FindPackageMessage.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\Platform\Windows.cmake;D:\Program Files\CMake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;D:\VR_GI\OpenVR\samples\CMakeLists.txt;D:\VR_GI\OpenVR\samples\build\CMakeFiles\3.16.2\CMakeCCompiler.cmake;D:\VR_GI\OpenVR\samples\build\CMakeFiles\3.16.2\CMakeCXXCompiler.cmake;D:\VR_GI\OpenVR\samples\build\CMakeFiles\3.16.2\CMakeRCCompiler.cmake;D:\VR_GI\OpenVR\samples\build\CMakeFiles\3.16.2\CMakeSystem.cmake;D:\VR_GI\OpenVR\samples\driver_sample\CMakeLists.txt;D:\VR_GI\OpenVR\samples\hellovr_opengl\CMakeLists.txt;D:\VR_GI\OpenVR\samples\hellovr_vulkan\CMakeLists.txt;D:\VR_GI\OpenVR\samples\helloworldoverlay\CMakeLists.txt;D:\VR_GI\OpenVR\samples\tracked_camera_openvr_sample\CMakeLists.txt;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5\Qt5Config.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5\Qt5ConfigVersion.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5\Qt5ModuleLocation.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfig.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtras.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigExtrasMkspecDir.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreConfigVersion.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Core\Qt5CoreMacros.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfig.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigExtras.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5GuiConfigVersion.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QGifPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICNSPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QICOPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QJpegPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QMinimalIntegrationPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QOffscreenIntegrationPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgIconPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QSvgPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTgaPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTiffPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QTuioTouchPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QVirtualKeyboardPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWbmpPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWebpPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsDirect2DIntegrationPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QWindowsIntegrationPlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Gui\Qt5Gui_QXdgDesktopPortalThemePlugin.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfig.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigExtras.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsConfigVersion.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5WidgetsMacros.cmake;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\lib\cmake\Qt5Widgets\Qt5Widgets_QWindowsVistaStylePlugin.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\VR_GI\OpenVR\samples\build\CMakeFiles\generate.stamp;D:\VR_GI\OpenVR\samples\build\driver_sample\CMakeFiles\generate.stamp;D:\VR_GI\OpenVR\samples\build\hellovr_opengl\CMakeFiles\generate.stamp;D:\VR_GI\OpenVR\samples\build\hellovr_vulkan\CMakeFiles\generate.stamp;D:\VR_GI\OpenVR\samples\build\helloworldoverlay\CMakeFiles\generate.stamp;D:\VR_GI\OpenVR\samples\build\tracked_camera_openvr_sample\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
