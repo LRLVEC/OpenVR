@@ -5,52 +5,58 @@
 #include <GL/_Window.h>
 #include <GL/_OpenVR.h>
 
-Math::mat4<float> ConvertSteamVRMatrixToMatrix4(vr::HmdMatrix34_t* a)
+
+struct FramebufferDesc
 {
-	Math::mat<float, 3, 4>tp(*(Math::mat<float, 3, 4>*)a);
-	Math::mat3<float>ttp(tp);
-	Math::mat4<float>tttp(!ttp);
-	Math::vec4<float> dr(-tp.column(3));
-	dr.data[3] = 0;
-	dr = (tttp, dr);
-	//dr *= 2;
-	dr.data[3] = 1;
-	tttp.setCol(dr, 3);
-	return tttp;
+	GLuint m_nDepthBufferId;
+	GLuint m_nRenderTextureId;
+	GLuint m_nRenderFramebufferId;
+	GLuint m_nResolveTextureId;
+	GLuint m_nResolveFramebufferId;
+};
+bool CreateFrameBuffer(int width, int height, FramebufferDesc& framebufferDesc)
+{
+	glGenFramebuffers(1, &framebufferDesc.m_nRenderFramebufferId);
+	glBindFramebuffer(GL_FRAMEBUFFER, framebufferDesc.m_nRenderFramebufferId);
+
+	glGenRenderbuffers(1, &framebufferDesc.m_nDepthBufferId);
+	glBindRenderbuffer(GL_RENDERBUFFER, framebufferDesc.m_nDepthBufferId);
+	glRenderbufferStorageMultisample(GL_RENDERBUFFER, 4, GL_DEPTH_COMPONENT, width, height);
+	glFramebufferRenderbuffer(GL_FRAMEBUFFER, GL_DEPTH_ATTACHMENT, GL_RENDERBUFFER, framebufferDesc.m_nDepthBufferId);
+
+	glGenTextures(1, &framebufferDesc.m_nRenderTextureId);
+	glBindTexture(GL_TEXTURE_2D_MULTISAMPLE, framebufferDesc.m_nRenderTextureId);
+	glTexImage2DMultisample(GL_TEXTURE_2D_MULTISAMPLE, 4, GL_RGBA8, width, height, true);
+	glFramebufferTexture2D(GL_FRAMEBUFFER, GL_COLOR_ATTACHMENT0, GL_TEXTURE_2D_MULTISAMPLE, framebufferDesc.m_nRenderTextureId, 0);
+
+	glGenFramebuffers(1, &framebufferDesc.m_nResolveFramebufferId);
+	glBindFramebuffer(GL_FRAMEBUFFER, framebufferDesc.m_nResolveFramebufferId);
+
+	glGenTextures(1, &framebufferDesc.m_nResolveTextureId);
+	glBindTexture(GL_TEXTURE_2D, framebufferDesc.m_nResolveTextureId);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR);
+	glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAX_LEVEL, 0);
+	glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA8, width, height, 0, GL_RGBA, GL_UNSIGNED_BYTE, nullptr);
+	glFramebufferTexture2D(GL_FRAMEBUFFER, GL_COLOR_ATTACHMENT0, GL_TEXTURE_2D, framebufferDesc.m_nResolveTextureId, 0);
+
+	// check FBO status
+	GLenum status = glCheckFramebufferStatus(GL_FRAMEBUFFER);
+	if (status != GL_FRAMEBUFFER_COMPLETE)return false;
+	glBindFramebuffer(GL_FRAMEBUFFER, 0);
+	return true;
 }
 
 int main()
 {
-	vr::IVRSystem* m_pHMD;
-	vr::EVRInitError eError = vr::VRInitError_None;
-	m_pHMD = vr::VR_Init(&eError, vr::VRApplication_Scene);
+	OpenGL::VR::VRDevice vrTest;
+	vrTest.printInfo();
+	OpenGL::VR::Trans vrTrans(&vrTest, { 0.01, 30 });
+	//vrTest.getObjects();
+	//printf("%d\n", vrTest.validObjects.length);
+	//for (int c0(0); c0 < vrTest.validObjects.length; ++c0)
+		//vrTest.objects[vrTest.validObjects[c0]].printInfo();
 
-	if (eError != vr::VRInitError_None)
-	{
-		m_pHMD = NULL;
-		char buf[1024];
-		printf(buf, sizeof(buf), "Unable to init VR runtime: %s",
-			vr::VR_GetVRInitErrorAsEnglishDescription(eError));
-		printf("VR_Init Failed");
-		return false;
-	}
-
-	vr::HmdMatrix44_t mat4 = m_pHMD->GetProjectionMatrix(vr::Eye_Left, 0.1f, 30.0f);
-	Math::mat4<float>ahh(*(Math::mat4<float>*) & mat4);
-	ahh.print();
-	mat4 = m_pHMD->GetProjectionMatrix(vr::Eye_Right, 0.1f, 30.0f);
-	ahh = *(Math::mat4<float>*) & mat4;
-	ahh.print();
-
-	vr::HmdMatrix34_t mat34 = m_pHMD->GetEyeToHeadTransform(vr::Eye_Left);
-	Math::mat4<float>bhh(*(Math::mat<float, 3, 4>*) & mat34);
-	bhh.print();
-	mat34 = m_pHMD->GetEyeToHeadTransform(vr::Eye_Right);
-	bhh = *(Math::mat<float, 3, 4>*) & mat34;
-	bhh.print();
-
-	vr::TrackedDevicePose_t m_rTrackedDevicePose;
-
+	//vr::TrackedDevicePose_t m_rTrackedDevicePose;
 
 
 	OpenGL::OpenGLInit(4, 5);
@@ -68,20 +74,26 @@ int main()
 	glfwSwapInterval(1);
 	FPS fps;
 	fps.refresh();
+
+
+
 	while (!wm.close())
 	{
-		vr::VRCompositor()->WaitGetPoses(&m_rTrackedDevicePose, 1, NULL, 0);
-		Math::mat4<float> tp;
-		if (m_rTrackedDevicePose.bPoseIsValid)
-		{
-			tp = ConvertSteamVRMatrixToMatrix4(&m_rTrackedDevicePose.mDeviceToAbsoluteTracking);
-			::printf("\r");
-			for (int c0(0); c0 < 16; ++c0)::printf("%.3f ", *((float*)tp.array + c0));
-		}
+		//vr::VRCompositor()->WaitGetPoses(&m_rTrackedDevicePose, 1, NULL, 0);
+		//Math::mat4<float> tp;
+		//if (m_rTrackedDevicePose.bPoseIsValid)
+		//{
+		//	tp = ConvertSteamVRMatrixToMatrix4(&m_rTrackedDevicePose.mDeviceToAbsoluteTracking);
+		//	::printf("\r");
+		//	for (int c0(0); c0 < 16; ++c0)::printf("%.3f ", *((float*)tp.array + c0));
+		//}
 		wm.pullEvents();
-		nBody.trans.trans = tp;
-		nBody.trans.calcAns();
-		nBody.trans.updated = true;
+		//nBody.trans.trans = tp;
+		//nBody.trans.calcAns();
+		//nBody.trans.updated = true;
+
+		vrTrans.update();
+		vrTrans.leftEye.offset.printInfo("\nLeft Eye Offset:");
 
 		wm.render();
 		wm.swapBuffers();
