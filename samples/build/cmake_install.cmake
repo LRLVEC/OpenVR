@@ -1,4 +1,4 @@
-# Install script for directory: D:/VR_GI/OpenVR/samples
+# Install script for directory: E:/files/C++/VR/openvr/samples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,11 +34,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("D:/VR_GI/OpenVR/samples/build/driver_sample/cmake_install.cmake")
-  include("D:/VR_GI/OpenVR/samples/build/hellovr_opengl/cmake_install.cmake")
-  include("D:/VR_GI/OpenVR/samples/build/hellovr_vulkan/cmake_install.cmake")
-  include("D:/VR_GI/OpenVR/samples/build/helloworldoverlay/cmake_install.cmake")
-  include("D:/VR_GI/OpenVR/samples/build/tracked_camera_openvr_sample/cmake_install.cmake")
+  include("E:/files/C++/VR/openvr/samples/build/driver_sample/cmake_install.cmake")
+  include("E:/files/C++/VR/openvr/samples/build/hellovr_opengl/cmake_install.cmake")
+  include("E:/files/C++/VR/openvr/samples/build/hellovr_vulkan/cmake_install.cmake")
+  include("E:/files/C++/VR/openvr/samples/build/helloworldoverlay/cmake_install.cmake")
+  include("E:/files/C++/VR/openvr/samples/build/tracked_camera_openvr_sample/cmake_install.cmake")
 
 endif()
 
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/VR_GI/OpenVR/samples/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/files/C++/VR/openvr/samples/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

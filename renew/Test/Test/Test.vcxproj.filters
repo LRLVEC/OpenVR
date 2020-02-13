@@ -20,7 +20,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\..\include\GL\_OpenVR.h">
+    <ClInclude Include="..\..\..\..\..\include\GL\_OpenVR.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

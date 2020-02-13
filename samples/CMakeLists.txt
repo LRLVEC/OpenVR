@@ -114,12 +114,12 @@ else()
       GLEW
       glew32
     PATHS
-      ${THIRDPARTY_DIR}/glew/glew-1.11.0/lib/Release
+      ${THIRDPARTY_DIR}/glew/glew-2.1.0/lib/Release
     PATH_SUFFIXES
       osx32
       ${WINDOWS_PATH_SUFFIXES}
   )
-  set(GLEW_INCLUDE_DIR ${THIRDPARTY_DIR}/glew/glew-1.11.0/include)
+  set(GLEW_INCLUDE_DIR ${THIRDPARTY_DIR}/glew/glew-2.1.0/include)
 endif()
 
 ## SDL 2

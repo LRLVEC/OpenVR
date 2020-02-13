@@ -1,4 +1,4 @@
-# Install script for directory: D:/VR_GI/OpenVR/samples/hellovr_opengl
+# Install script for directory: E:/files/C++/VR/openvr/samples/hellovr_opengl
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

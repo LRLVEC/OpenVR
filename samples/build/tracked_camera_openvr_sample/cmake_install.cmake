@@ -1,4 +1,4 @@
-# Install script for directory: D:/VR_GI/OpenVR/samples/tracked_camera_openvr_sample
+# Install script for directory: E:/files/C++/VR/openvr/samples/tracked_camera_openvr_sample
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

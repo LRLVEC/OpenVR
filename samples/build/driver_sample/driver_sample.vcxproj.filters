@@ -1,30 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="D:\VR_GI\OpenVR\samples\build\driver_sample\driver_sample_autogen\mocs_compilation.cpp">
+    <ClCompile Include="E:\files\C++\VR\openvr\samples\build\driver_sample\driver_sample_autogen\mocs_compilation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\VR_GI\OpenVR\samples\driver_sample\driverlog.cpp">
+    <ClCompile Include="E:\files\C++\VR\openvr\samples\driver_sample\driverlog.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="D:\VR_GI\OpenVR\samples\driver_sample\driver_sample.cpp">
+    <ClCompile Include="E:\files\C++\VR\openvr\samples\driver_sample\driver_sample.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="D:\VR_GI\OpenVR\samples\driver_sample\driverlog.h">
+    <ClInclude Include="E:\files\C++\VR\openvr\samples\driver_sample\driverlog.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\VR_GI\OpenVR\samples\driver_sample\CMakeLists.txt" />
+    <CustomBuild Include="E:\files\C++\VR\openvr\samples\driver_sample\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{79C00A7A-11C4-376E-9AB4-66C6140B82E6}</UniqueIdentifier>
+      <UniqueIdentifier>{0608FD74-5F14-3A9D-A612-AF987C53000B}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{EAA1DF80-3DAC-3FB4-A928-0516F102119C}</UniqueIdentifier>
+      <UniqueIdentifier>{E18CD096-3DC8-38DF-8571-ADE73091757F}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

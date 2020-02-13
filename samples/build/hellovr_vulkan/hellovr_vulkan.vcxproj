@@ -22,7 +22,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C0619A65-5AE8-3EA0-B6FE-282CA0DC7DF4}</ProjectGuid>
+    <ProjectGuid>{5F5459EF-6497-3537-84BD-9D5991066CC9}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>x64</Platform>
@@ -59,25 +59,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\VR_GI\OpenVR\samples\bin\win64\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\files\C++\VR\openvr\samples\bin\win64\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">hellovr_vulkan.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">hellovr_vulkan</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\VR_GI\OpenVR\samples\bin\win64\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\files\C++\VR\openvr\samples\bin\win64\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">hellovr_vulkan.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">hellovr_vulkan</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\VR_GI\OpenVR\samples\bin\win64\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\files\C++\VR\openvr\samples\bin\win64\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">hellovr_vulkan.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">hellovr_vulkan</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\VR_GI\OpenVR\samples\bin\win64\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\files\C++\VR\openvr\samples\bin\win64\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">hellovr_vulkan.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">hellovr_vulkan</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
@@ -86,7 +86,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\VR_GI\OpenVR\samples\build\hellovr_vulkan;D:\VR_GI\OpenVR\samples\hellovr_vulkan;D:\VR_GI\OpenVR\samples\build\hellovr_vulkan\hellovr_vulkan_autogen\include_Debug;D:\VR_GI\OpenVR\samples\.;D:\VR_GI\OpenVR\samples\thirdparty\glew\glew-1.11.0\include;D:\VR_GI\OpenVR\samples\thirdparty\sdl2-2.0.3\include;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtCore;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\.\mkspecs\win32-msvc;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtGui;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtANGLE;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtWidgets;D:\VR_GI\OpenVR\samples\..\headers;D:\VR_GI\OpenVR\samples\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\files\C++\VR\openvr\samples\build\hellovr_vulkan;E:\files\C++\VR\openvr\samples\hellovr_vulkan;E:\files\C++\VR\openvr\samples\build\hellovr_vulkan\hellovr_vulkan_autogen\include_Debug;E:\files\C++\VR\openvr\samples\.;E:\files\C++\VR\openvr\samples\thirdparty\glew\glew-2.1.0\include;E:\files\C++\VR\openvr\samples\thirdparty\sdl2-2.0.3\include;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtCore;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\.\mkspecs\winrt-x64-msvc2017;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtGui;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtANGLE;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtWidgets;E:\files\C++\VR\openvr\samples\..\headers;E:\files\C++\VR\openvr\samples\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -104,10 +104,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;EBUG;_WIN32;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\VR_GI\OpenVR\samples\build\hellovr_vulkan;D:\VR_GI\OpenVR\samples\hellovr_vulkan;D:\VR_GI\OpenVR\samples\build\hellovr_vulkan\hellovr_vulkan_autogen\include_Debug;D:\VR_GI\OpenVR\samples\.;D:\VR_GI\OpenVR\samples\thirdparty\glew\glew-1.11.0\include;D:\VR_GI\OpenVR\samples\thirdparty\sdl2-2.0.3\include;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtCore;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\.\mkspecs\win32-msvc;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtGui;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtANGLE;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtWidgets;D:\VR_GI\OpenVR\samples\..\headers;D:\VR_GI\OpenVR\samples\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\files\C++\VR\openvr\samples\build\hellovr_vulkan;E:\files\C++\VR\openvr\samples\hellovr_vulkan;E:\files\C++\VR\openvr\samples\build\hellovr_vulkan\hellovr_vulkan_autogen\include_Debug;E:\files\C++\VR\openvr\samples\.;E:\files\C++\VR\openvr\samples\thirdparty\glew\glew-2.1.0\include;E:\files\C++\VR\openvr\samples\thirdparty\sdl2-2.0.3\include;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtCore;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\.\mkspecs\winrt-x64-msvc2017;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtGui;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtANGLE;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtWidgets;E:\files\C++\VR\openvr\samples\..\headers;E:\files\C++\VR\openvr\samples\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\VR_GI\OpenVR\samples\build\hellovr_vulkan;D:\VR_GI\OpenVR\samples\hellovr_vulkan;D:\VR_GI\OpenVR\samples\build\hellovr_vulkan\hellovr_vulkan_autogen\include_Debug;D:\VR_GI\OpenVR\samples\.;D:\VR_GI\OpenVR\samples\thirdparty\glew\glew-1.11.0\include;D:\VR_GI\OpenVR\samples\thirdparty\sdl2-2.0.3\include;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtCore;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\.\mkspecs\win32-msvc;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtGui;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtANGLE;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtWidgets;D:\VR_GI\OpenVR\samples\..\headers;D:\VR_GI\OpenVR\samples\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\files\C++\VR\openvr\samples\build\hellovr_vulkan;E:\files\C++\VR\openvr\samples\hellovr_vulkan;E:\files\C++\VR\openvr\samples\build\hellovr_vulkan\hellovr_vulkan_autogen\include_Debug;E:\files\C++\VR\openvr\samples\.;E:\files\C++\VR\openvr\samples\thirdparty\glew\glew-2.1.0\include;E:\files\C++\VR\openvr\samples\thirdparty\sdl2-2.0.3\include;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtCore;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\.\mkspecs\winrt-x64-msvc2017;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtGui;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtANGLE;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtWidgets;E:\files\C++\VR\openvr\samples\..\headers;E:\files\C++\VR\openvr\samples\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -117,11 +117,11 @@
     <PreBuildEvent>
       <Message>Automatic MOC and UIC for target hellovr_vulkan</Message>
       <Command>setlocal
-cd D:\VR_GI\OpenVR\samples\build\hellovr_vulkan
+cd E:\files\C++\VR\openvr\samples\build\hellovr_vulkan
 if %errorlevel% neq 0 goto :cmEnd
-D:
+E:
 if %errorlevel% neq 0 goto :cmEnd
-"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/VR_GI/OpenVR/samples/build/hellovr_vulkan/CMakeFiles/hellovr_vulkan_autogen.dir/AutogenInfo.json Debug
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/files/C++/VR/openvr/samples/build/hellovr_vulkan/CMakeFiles/hellovr_vulkan_autogen.dir/AutogenInfo.cmake Debug
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -131,13 +131,13 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PreBuildEvent>
     <Link>
-      <AdditionalDependencies>..\..\thirdparty\sdl2-2.0.3\bin\win64\SDL2.lib;..\..\thirdparty\sdl2-2.0.3\bin\win64\SDL2main.lib;..\..\thirdparty\vulkan-1.0.49.0\lib\win64\vulkan-1.lib;D:\VR_GI\OpenVR\lib\win64\openvr_api.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\thirdparty\sdl2-2.0.3\bin\win64\SDL2.lib;..\..\thirdparty\sdl2-2.0.3\bin\win64\SDL2main.lib;..\..\thirdparty\vulkan-1.0.49.0\lib\win64\vulkan-1.lib;E:\files\C++\VR\openvr\lib\win64\openvr_api.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/VR_GI/OpenVR/samples/bin/win64/hellovr_vulkan.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/VR_GI/OpenVR/samples/bin/win64/hellovr_vulkan.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/files/C++/VR/openvr/samples/bin/win64/hellovr_vulkan.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/files/C++/VR/openvr/samples/bin/win64/hellovr_vulkan.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -146,7 +146,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>NCREMENTAL:NO;D:\VR_GI\OpenVR\samples\build\hellovr_vulkan;D:\VR_GI\OpenVR\samples\hellovr_vulkan;D:\VR_GI\OpenVR\samples\build\hellovr_vulkan\hellovr_vulkan_autogen\include_Release;D:\VR_GI\OpenVR\samples\.;D:\VR_GI\OpenVR\samples\thirdparty\glew\glew-1.11.0\include;D:\VR_GI\OpenVR\samples\thirdparty\sdl2-2.0.3\include;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtCore;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\.\mkspecs\win32-msvc;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtGui;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtANGLE;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtWidgets;D:\VR_GI\OpenVR\samples\..\headers;D:\VR_GI\OpenVR\samples\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>NCREMENTAL:NO;E:\files\C++\VR\openvr\samples\build\hellovr_vulkan;E:\files\C++\VR\openvr\samples\hellovr_vulkan;E:\files\C++\VR\openvr\samples\build\hellovr_vulkan\hellovr_vulkan_autogen\include_Release;E:\files\C++\VR\openvr\samples\.;E:\files\C++\VR\openvr\samples\thirdparty\glew\glew-2.1.0\include;E:\files\C++\VR\openvr\samples\thirdparty\sdl2-2.0.3\include;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtCore;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\.\mkspecs\winrt-x64-msvc2017;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtGui;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtANGLE;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtWidgets;E:\files\C++\VR\openvr\samples\..\headers;E:\files\C++\VR\openvr\samples\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -165,10 +165,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\VR_GI\OpenVR\samples\build\hellovr_vulkan;D:\VR_GI\OpenVR\samples\hellovr_vulkan;D:\VR_GI\OpenVR\samples\build\hellovr_vulkan\hellovr_vulkan_autogen\include_Release;D:\VR_GI\OpenVR\samples\.;D:\VR_GI\OpenVR\samples\thirdparty\glew\glew-1.11.0\include;D:\VR_GI\OpenVR\samples\thirdparty\sdl2-2.0.3\include;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtCore;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\.\mkspecs\win32-msvc;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtGui;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtANGLE;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtWidgets;D:\VR_GI\OpenVR\samples\..\headers;D:\VR_GI\OpenVR\samples\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\files\C++\VR\openvr\samples\build\hellovr_vulkan;E:\files\C++\VR\openvr\samples\hellovr_vulkan;E:\files\C++\VR\openvr\samples\build\hellovr_vulkan\hellovr_vulkan_autogen\include_Release;E:\files\C++\VR\openvr\samples\.;E:\files\C++\VR\openvr\samples\thirdparty\glew\glew-2.1.0\include;E:\files\C++\VR\openvr\samples\thirdparty\sdl2-2.0.3\include;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtCore;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\.\mkspecs\winrt-x64-msvc2017;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtGui;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtANGLE;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtWidgets;E:\files\C++\VR\openvr\samples\..\headers;E:\files\C++\VR\openvr\samples\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\VR_GI\OpenVR\samples\build\hellovr_vulkan;D:\VR_GI\OpenVR\samples\hellovr_vulkan;D:\VR_GI\OpenVR\samples\build\hellovr_vulkan\hellovr_vulkan_autogen\include_Release;D:\VR_GI\OpenVR\samples\.;D:\VR_GI\OpenVR\samples\thirdparty\glew\glew-1.11.0\include;D:\VR_GI\OpenVR\samples\thirdparty\sdl2-2.0.3\include;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtCore;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\.\mkspecs\win32-msvc;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtGui;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtANGLE;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtWidgets;D:\VR_GI\OpenVR\samples\..\headers;D:\VR_GI\OpenVR\samples\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\files\C++\VR\openvr\samples\build\hellovr_vulkan;E:\files\C++\VR\openvr\samples\hellovr_vulkan;E:\files\C++\VR\openvr\samples\build\hellovr_vulkan\hellovr_vulkan_autogen\include_Release;E:\files\C++\VR\openvr\samples\.;E:\files\C++\VR\openvr\samples\thirdparty\glew\glew-2.1.0\include;E:\files\C++\VR\openvr\samples\thirdparty\sdl2-2.0.3\include;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtCore;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\.\mkspecs\winrt-x64-msvc2017;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtGui;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtANGLE;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtWidgets;E:\files\C++\VR\openvr\samples\..\headers;E:\files\C++\VR\openvr\samples\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -178,11 +178,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PreBuildEvent>
       <Message>Automatic MOC and UIC for target hellovr_vulkan</Message>
       <Command>setlocal
-cd D:\VR_GI\OpenVR\samples\build\hellovr_vulkan
+cd E:\files\C++\VR\openvr\samples\build\hellovr_vulkan
 if %errorlevel% neq 0 goto :cmEnd
-D:
+E:
 if %errorlevel% neq 0 goto :cmEnd
-"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/VR_GI/OpenVR/samples/build/hellovr_vulkan/CMakeFiles/hellovr_vulkan_autogen.dir/AutogenInfo.json Release
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/files/C++/VR/openvr/samples/build/hellovr_vulkan/CMakeFiles/hellovr_vulkan_autogen.dir/AutogenInfo.cmake Release
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -192,13 +192,13 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PreBuildEvent>
     <Link>
-      <AdditionalDependencies>..\..\thirdparty\sdl2-2.0.3\bin\win64\SDL2.lib;..\..\thirdparty\sdl2-2.0.3\bin\win64\SDL2main.lib;..\..\thirdparty\vulkan-1.0.49.0\lib\win64\vulkan-1.lib;D:\VR_GI\OpenVR\lib\win64\openvr_api.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\thirdparty\sdl2-2.0.3\bin\win64\SDL2.lib;..\..\thirdparty\sdl2-2.0.3\bin\win64\SDL2main.lib;..\..\thirdparty\vulkan-1.0.49.0\lib\win64\vulkan-1.lib;E:\files\C++\VR\openvr\lib\win64\openvr_api.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/VR_GI/OpenVR/samples/bin/win64/hellovr_vulkan.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/VR_GI/OpenVR/samples/bin/win64/hellovr_vulkan.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/files/C++/VR/openvr/samples/bin/win64/hellovr_vulkan.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/files/C++/VR/openvr/samples/bin/win64/hellovr_vulkan.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -207,7 +207,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\VR_GI\OpenVR\samples\build\hellovr_vulkan;D:\VR_GI\OpenVR\samples\hellovr_vulkan;D:\VR_GI\OpenVR\samples\build\hellovr_vulkan\hellovr_vulkan_autogen\include_MinSizeRel;D:\VR_GI\OpenVR\samples\.;D:\VR_GI\OpenVR\samples\thirdparty\glew\glew-1.11.0\include;D:\VR_GI\OpenVR\samples\thirdparty\sdl2-2.0.3\include;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtCore;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\.\mkspecs\win32-msvc;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtGui;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtANGLE;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtWidgets;D:\VR_GI\OpenVR\samples\..\headers;D:\VR_GI\OpenVR\samples\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\files\C++\VR\openvr\samples\build\hellovr_vulkan;E:\files\C++\VR\openvr\samples\hellovr_vulkan;E:\files\C++\VR\openvr\samples\build\hellovr_vulkan\hellovr_vulkan_autogen\include_MinSizeRel;E:\files\C++\VR\openvr\samples\.;E:\files\C++\VR\openvr\samples\thirdparty\glew\glew-2.1.0\include;E:\files\C++\VR\openvr\samples\thirdparty\sdl2-2.0.3\include;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtCore;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\.\mkspecs\winrt-x64-msvc2017;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtGui;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtANGLE;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtWidgets;E:\files\C++\VR\openvr\samples\..\headers;E:\files\C++\VR\openvr\samples\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -225,10 +225,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\VR_GI\OpenVR\samples\build\hellovr_vulkan;D:\VR_GI\OpenVR\samples\hellovr_vulkan;D:\VR_GI\OpenVR\samples\build\hellovr_vulkan\hellovr_vulkan_autogen\include_MinSizeRel;D:\VR_GI\OpenVR\samples\.;D:\VR_GI\OpenVR\samples\thirdparty\glew\glew-1.11.0\include;D:\VR_GI\OpenVR\samples\thirdparty\sdl2-2.0.3\include;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtCore;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\.\mkspecs\win32-msvc;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtGui;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtANGLE;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtWidgets;D:\VR_GI\OpenVR\samples\..\headers;D:\VR_GI\OpenVR\samples\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\files\C++\VR\openvr\samples\build\hellovr_vulkan;E:\files\C++\VR\openvr\samples\hellovr_vulkan;E:\files\C++\VR\openvr\samples\build\hellovr_vulkan\hellovr_vulkan_autogen\include_MinSizeRel;E:\files\C++\VR\openvr\samples\.;E:\files\C++\VR\openvr\samples\thirdparty\glew\glew-2.1.0\include;E:\files\C++\VR\openvr\samples\thirdparty\sdl2-2.0.3\include;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtCore;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\.\mkspecs\winrt-x64-msvc2017;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtGui;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtANGLE;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtWidgets;E:\files\C++\VR\openvr\samples\..\headers;E:\files\C++\VR\openvr\samples\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\VR_GI\OpenVR\samples\build\hellovr_vulkan;D:\VR_GI\OpenVR\samples\hellovr_vulkan;D:\VR_GI\OpenVR\samples\build\hellovr_vulkan\hellovr_vulkan_autogen\include_MinSizeRel;D:\VR_GI\OpenVR\samples\.;D:\VR_GI\OpenVR\samples\thirdparty\glew\glew-1.11.0\include;D:\VR_GI\OpenVR\samples\thirdparty\sdl2-2.0.3\include;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtCore;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\.\mkspecs\win32-msvc;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtGui;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtANGLE;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtWidgets;D:\VR_GI\OpenVR\samples\..\headers;D:\VR_GI\OpenVR\samples\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\files\C++\VR\openvr\samples\build\hellovr_vulkan;E:\files\C++\VR\openvr\samples\hellovr_vulkan;E:\files\C++\VR\openvr\samples\build\hellovr_vulkan\hellovr_vulkan_autogen\include_MinSizeRel;E:\files\C++\VR\openvr\samples\.;E:\files\C++\VR\openvr\samples\thirdparty\glew\glew-2.1.0\include;E:\files\C++\VR\openvr\samples\thirdparty\sdl2-2.0.3\include;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtCore;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\.\mkspecs\winrt-x64-msvc2017;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtGui;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtANGLE;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtWidgets;E:\files\C++\VR\openvr\samples\..\headers;E:\files\C++\VR\openvr\samples\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -238,11 +238,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PreBuildEvent>
       <Message>Automatic MOC and UIC for target hellovr_vulkan</Message>
       <Command>setlocal
-cd D:\VR_GI\OpenVR\samples\build\hellovr_vulkan
+cd E:\files\C++\VR\openvr\samples\build\hellovr_vulkan
 if %errorlevel% neq 0 goto :cmEnd
-D:
+E:
 if %errorlevel% neq 0 goto :cmEnd
-"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/VR_GI/OpenVR/samples/build/hellovr_vulkan/CMakeFiles/hellovr_vulkan_autogen.dir/AutogenInfo.json MinSizeRel
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/files/C++/VR/openvr/samples/build/hellovr_vulkan/CMakeFiles/hellovr_vulkan_autogen.dir/AutogenInfo.cmake MinSizeRel
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -252,13 +252,13 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PreBuildEvent>
     <Link>
-      <AdditionalDependencies>..\..\thirdparty\sdl2-2.0.3\bin\win64\SDL2.lib;..\..\thirdparty\sdl2-2.0.3\bin\win64\SDL2main.lib;..\..\thirdparty\vulkan-1.0.49.0\lib\win64\vulkan-1.lib;D:\VR_GI\OpenVR\lib\win64\openvr_api.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\thirdparty\sdl2-2.0.3\bin\win64\SDL2.lib;..\..\thirdparty\sdl2-2.0.3\bin\win64\SDL2main.lib;..\..\thirdparty\vulkan-1.0.49.0\lib\win64\vulkan-1.lib;E:\files\C++\VR\openvr\lib\win64\openvr_api.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/VR_GI/OpenVR/samples/bin/win64/MinSizeRel/hellovr_vulkan.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/VR_GI/OpenVR/samples/bin/win64/MinSizeRel/hellovr_vulkan.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/files/C++/VR/openvr/samples/bin/win64/MinSizeRel/hellovr_vulkan.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/files/C++/VR/openvr/samples/bin/win64/MinSizeRel/hellovr_vulkan.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -267,7 +267,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>D:\VR_GI\OpenVR\samples\build\hellovr_vulkan;D:\VR_GI\OpenVR\samples\hellovr_vulkan;D:\VR_GI\OpenVR\samples\build\hellovr_vulkan\hellovr_vulkan_autogen\include_RelWithDebInfo;D:\VR_GI\OpenVR\samples\.;D:\VR_GI\OpenVR\samples\thirdparty\glew\glew-1.11.0\include;D:\VR_GI\OpenVR\samples\thirdparty\sdl2-2.0.3\include;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtCore;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\.\mkspecs\win32-msvc;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtGui;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtANGLE;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtWidgets;D:\VR_GI\OpenVR\samples\..\headers;D:\VR_GI\OpenVR\samples\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\files\C++\VR\openvr\samples\build\hellovr_vulkan;E:\files\C++\VR\openvr\samples\hellovr_vulkan;E:\files\C++\VR\openvr\samples\build\hellovr_vulkan\hellovr_vulkan_autogen\include_RelWithDebInfo;E:\files\C++\VR\openvr\samples\.;E:\files\C++\VR\openvr\samples\thirdparty\glew\glew-2.1.0\include;E:\files\C++\VR\openvr\samples\thirdparty\sdl2-2.0.3\include;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtCore;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\.\mkspecs\winrt-x64-msvc2017;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtGui;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtANGLE;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtWidgets;E:\files\C++\VR\openvr\samples\..\headers;E:\files\C++\VR\openvr\samples\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -284,10 +284,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_WIN32;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\VR_GI\OpenVR\samples\build\hellovr_vulkan;D:\VR_GI\OpenVR\samples\hellovr_vulkan;D:\VR_GI\OpenVR\samples\build\hellovr_vulkan\hellovr_vulkan_autogen\include_RelWithDebInfo;D:\VR_GI\OpenVR\samples\.;D:\VR_GI\OpenVR\samples\thirdparty\glew\glew-1.11.0\include;D:\VR_GI\OpenVR\samples\thirdparty\sdl2-2.0.3\include;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtCore;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\.\mkspecs\win32-msvc;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtGui;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtANGLE;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtWidgets;D:\VR_GI\OpenVR\samples\..\headers;D:\VR_GI\OpenVR\samples\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\files\C++\VR\openvr\samples\build\hellovr_vulkan;E:\files\C++\VR\openvr\samples\hellovr_vulkan;E:\files\C++\VR\openvr\samples\build\hellovr_vulkan\hellovr_vulkan_autogen\include_RelWithDebInfo;E:\files\C++\VR\openvr\samples\.;E:\files\C++\VR\openvr\samples\thirdparty\glew\glew-2.1.0\include;E:\files\C++\VR\openvr\samples\thirdparty\sdl2-2.0.3\include;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtCore;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\.\mkspecs\winrt-x64-msvc2017;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtGui;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtANGLE;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtWidgets;E:\files\C++\VR\openvr\samples\..\headers;E:\files\C++\VR\openvr\samples\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>D:\VR_GI\OpenVR\samples\build\hellovr_vulkan;D:\VR_GI\OpenVR\samples\hellovr_vulkan;D:\VR_GI\OpenVR\samples\build\hellovr_vulkan\hellovr_vulkan_autogen\include_RelWithDebInfo;D:\VR_GI\OpenVR\samples\.;D:\VR_GI\OpenVR\samples\thirdparty\glew\glew-1.11.0\include;D:\VR_GI\OpenVR\samples\thirdparty\sdl2-2.0.3\include;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtCore;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\.\mkspecs\win32-msvc;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtGui;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtANGLE;D:\VR_GI\Qt5.14.0\5.14.0\msvc2017_64\include\QtWidgets;D:\VR_GI\OpenVR\samples\..\headers;D:\VR_GI\OpenVR\samples\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>E:\files\C++\VR\openvr\samples\build\hellovr_vulkan;E:\files\C++\VR\openvr\samples\hellovr_vulkan;E:\files\C++\VR\openvr\samples\build\hellovr_vulkan\hellovr_vulkan_autogen\include_RelWithDebInfo;E:\files\C++\VR\openvr\samples\.;E:\files\C++\VR\openvr\samples\thirdparty\glew\glew-2.1.0\include;E:\files\C++\VR\openvr\samples\thirdparty\sdl2-2.0.3\include;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtCore;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\.\mkspecs\winrt-x64-msvc2017;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtGui;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtANGLE;D:\programs\QT\Qt5.14.1\5.14.1\winrt_x64_msvc2017\include\QtWidgets;E:\files\C++\VR\openvr\samples\..\headers;E:\files\C++\VR\openvr\samples\thirdparty\vulkan-1.0.49.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -297,11 +297,11 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PreBuildEvent>
       <Message>Automatic MOC and UIC for target hellovr_vulkan</Message>
       <Command>setlocal
-cd D:\VR_GI\OpenVR\samples\build\hellovr_vulkan
+cd E:\files\C++\VR\openvr\samples\build\hellovr_vulkan
 if %errorlevel% neq 0 goto :cmEnd
-D:
+E:
 if %errorlevel% neq 0 goto :cmEnd
-"D:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen D:/VR_GI/OpenVR/samples/build/hellovr_vulkan/CMakeFiles/hellovr_vulkan_autogen.dir/AutogenInfo.json RelWithDebInfo
+"C:\Program Files\CMake\bin\cmake.exe" -E cmake_autogen E:/files/C++/VR/openvr/samples/build/hellovr_vulkan/CMakeFiles/hellovr_vulkan_autogen.dir/AutogenInfo.cmake RelWithDebInfo
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -311,13 +311,13 @@ exit /b %1
 if %errorlevel% neq 0 goto :VCEnd</Command>
     </PreBuildEvent>
     <Link>
-      <AdditionalDependencies>..\..\thirdparty\sdl2-2.0.3\bin\win64\SDL2.lib;..\..\thirdparty\sdl2-2.0.3\bin\win64\SDL2main.lib;..\..\thirdparty\vulkan-1.0.49.0\lib\win64\vulkan-1.lib;D:\VR_GI\OpenVR\lib\win64\openvr_api.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\..\thirdparty\sdl2-2.0.3\bin\win64\SDL2.lib;..\..\thirdparty\sdl2-2.0.3\bin\win64\SDL2main.lib;..\..\thirdparty\vulkan-1.0.49.0\lib\win64\vulkan-1.lib;E:\files\C++\VR\openvr\lib\win64\openvr_api.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>D:/VR_GI/OpenVR/samples/bin/win64/RelWithDebInfo/hellovr_vulkan.lib</ImportLibrary>
-      <ProgramDataBaseFile>D:/VR_GI/OpenVR/samples/bin/win64/RelWithDebInfo/hellovr_vulkan.pdb</ProgramDataBaseFile>
+      <ImportLibrary>E:/files/C++/VR/openvr/samples/bin/win64/RelWithDebInfo/hellovr_vulkan.lib</ImportLibrary>
+      <ProgramDataBaseFile>E:/files/C++/VR/openvr/samples/bin/win64/RelWithDebInfo/hellovr_vulkan.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -325,10 +325,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="D:\VR_GI\OpenVR\samples\hellovr_vulkan\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/VR_GI/OpenVR/samples/hellovr_vulkan/CMakeLists.txt</Message>
+    <CustomBuild Include="E:\files\C++\VR\openvr\samples\hellovr_vulkan\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule E:/files/C++/VR/openvr/samples/hellovr_vulkan/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
-"D:\Program Files\CMake\bin\cmake.exe" -SD:/VR_GI/OpenVR/samples -BD:/VR_GI/OpenVR/samples/build --check-stamp-file D:/VR_GI/OpenVR/samples/build/hellovr_vulkan/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/files/C++/VR/openvr/samples -BE:/files/C++/VR/openvr/samples/build --check-stamp-file E:/files/C++/VR/openvr/samples/build/hellovr_vulkan/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -337,11 +337,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\VR_GI\OpenVR\samples\build\hellovr_vulkan\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">E:\files\C++\VR\openvr\samples\build\hellovr_vulkan\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/VR_GI/OpenVR/samples/hellovr_vulkan/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule E:/files/C++/VR/openvr/samples/hellovr_vulkan/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
-"D:\Program Files\CMake\bin\cmake.exe" -SD:/VR_GI/OpenVR/samples -BD:/VR_GI/OpenVR/samples/build --check-stamp-file D:/VR_GI/OpenVR/samples/build/hellovr_vulkan/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/files/C++/VR/openvr/samples -BE:/files/C++/VR/openvr/samples/build --check-stamp-file E:/files/C++/VR/openvr/samples/build/hellovr_vulkan/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -350,11 +350,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\VR_GI\OpenVR\samples\build\hellovr_vulkan\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">E:\files\C++\VR\openvr\samples\build\hellovr_vulkan\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/VR_GI/OpenVR/samples/hellovr_vulkan/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule E:/files/C++/VR/openvr/samples/hellovr_vulkan/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
-"D:\Program Files\CMake\bin\cmake.exe" -SD:/VR_GI/OpenVR/samples -BD:/VR_GI/OpenVR/samples/build --check-stamp-file D:/VR_GI/OpenVR/samples/build/hellovr_vulkan/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/files/C++/VR/openvr/samples -BE:/files/C++/VR/openvr/samples/build --check-stamp-file E:/files/C++/VR/openvr/samples/build/hellovr_vulkan/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -363,11 +363,11 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\VR_GI\OpenVR\samples\build\hellovr_vulkan\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">E:\files\C++\VR\openvr\samples\build\hellovr_vulkan\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/VR_GI/OpenVR/samples/hellovr_vulkan/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule E:/files/C++/VR/openvr/samples/hellovr_vulkan/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
-"D:\Program Files\CMake\bin\cmake.exe" -SD:/VR_GI/OpenVR/samples -BD:/VR_GI/OpenVR/samples/build --check-stamp-file D:/VR_GI/OpenVR/samples/build/hellovr_vulkan/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SE:/files/C++/VR/openvr/samples -BE:/files/C++/VR/openvr/samples/build --check-stamp-file E:/files/C++/VR/openvr/samples/build/hellovr_vulkan/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -376,27 +376,27 @@ exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\VR_GI\OpenVR\samples\build\hellovr_vulkan\CMakeFiles\generate.stamp</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">E:\files\C++\VR\openvr\samples\build\hellovr_vulkan\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="D:\VR_GI\OpenVR\samples\build\hellovr_vulkan\hellovr_vulkan_autogen\mocs_compilation.cpp" />
-    <ClCompile Include="D:\VR_GI\OpenVR\samples\shared\Matrices.cpp" />
-    <ClInclude Include="D:\VR_GI\OpenVR\samples\shared\Matrices.h" />
-    <ClInclude Include="D:\VR_GI\OpenVR\samples\shared\Vectors.h" />
-    <ClInclude Include="D:\VR_GI\OpenVR\samples\shared\compat.h" />
-    <ClCompile Include="D:\VR_GI\OpenVR\samples\shared\lodepng.cpp" />
-    <ClInclude Include="D:\VR_GI\OpenVR\samples\shared\lodepng.h" />
-    <ClCompile Include="D:\VR_GI\OpenVR\samples\shared\pathtools.cpp" />
-    <ClInclude Include="D:\VR_GI\OpenVR\samples\shared\pathtools.h" />
-    <ClCompile Include="D:\VR_GI\OpenVR\samples\shared\strtools.cpp" />
-    <ClInclude Include="D:\VR_GI\OpenVR\samples\shared\strtools.h" />
-    <ClCompile Include="D:\VR_GI\OpenVR\samples\hellovr_vulkan\hellovr_vulkan_main.cpp" />
+    <ClCompile Include="E:\files\C++\VR\openvr\samples\build\hellovr_vulkan\hellovr_vulkan_autogen\mocs_compilation.cpp" />
+    <ClCompile Include="E:\files\C++\VR\openvr\samples\shared\Matrices.cpp" />
+    <ClInclude Include="E:\files\C++\VR\openvr\samples\shared\Matrices.h" />
+    <ClInclude Include="E:\files\C++\VR\openvr\samples\shared\Vectors.h" />
+    <ClInclude Include="E:\files\C++\VR\openvr\samples\shared\compat.h" />
+    <ClCompile Include="E:\files\C++\VR\openvr\samples\shared\lodepng.cpp" />
+    <ClInclude Include="E:\files\C++\VR\openvr\samples\shared\lodepng.h" />
+    <ClCompile Include="E:\files\C++\VR\openvr\samples\shared\pathtools.cpp" />
+    <ClInclude Include="E:\files\C++\VR\openvr\samples\shared\pathtools.h" />
+    <ClCompile Include="E:\files\C++\VR\openvr\samples\shared\strtools.cpp" />
+    <ClInclude Include="E:\files\C++\VR\openvr\samples\shared\strtools.h" />
+    <ClCompile Include="E:\files\C++\VR\openvr\samples\hellovr_vulkan\hellovr_vulkan_main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="D:\VR_GI\OpenVR\samples\build\ZERO_CHECK.vcxproj">
-      <Project>{F7C1DB60-E371-313B-B400-E23E58FF1D73}</Project>
+    <ProjectReference Include="E:\files\C++\VR\openvr\samples\build\ZERO_CHECK.vcxproj">
+      <Project>{9EF28DB3-B6C6-3BC1-B341-6F5FA9F5231F}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>

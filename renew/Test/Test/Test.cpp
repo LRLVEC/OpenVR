@@ -18,7 +18,7 @@ int main()
 		}
 	};
 	Window::WindowManager wm(winPara);
-	OpenGL::NBodyVR nBody(20);
+	OpenGL::NBodyVR nBody(30);
 	wm.init(0, &nBody);
 	glfwSwapInterval(0);
 	FPS fps;

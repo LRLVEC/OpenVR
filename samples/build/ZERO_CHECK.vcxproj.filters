@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="D:\VR_GI\OpenVR\samples\build\CMakeFiles\02d542414f457b04befb67d5e8a5711d\generate.stamp.rule">
+    <CustomBuild Include="E:\files\C++\VR\openvr\samples\build\CMakeFiles\3fdc6ce91d2397b59c816e80634b9d37\generate.stamp.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{2B20F702-4B16-38BD-8093-91A4F71A1321}</UniqueIdentifier>
+      <UniqueIdentifier>{D83FF337-E7BE-3CA7-B7D4-BB44F819F2FC}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
